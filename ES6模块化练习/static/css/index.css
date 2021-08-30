@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper{
+    position: relative;
+    margin: 0 auto;
+    /* 宽度有js设置，水平居中 */
+}
+.basic{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-size: 100% 100%;
+    /* 具体使用哪张背景图有js决定 */
+}
+.wrapper .box{
+    background-image: url("../img/box.png");
+}
+.wrapper .player{
+    background-image: url("../img/player.png");
+}
+.wrapper .wall{
+    background-image: url("../img/wall.jpg");
+}
+.wrapper .rightBox{
+    background-image: url("../img/over_box.png");
+}
+.wrapper .correctSpace{
+    border: 2px solid #0f0;
+    box-sizing: border-box;
+}
